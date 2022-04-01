@@ -1,0 +1,30 @@
+ <!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>Wikigame</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<body>
+    <div>
+        <input type="text" id="url-field">
+
+        <button id="start-btn">Mark as Start</button>
+        <button id="end-btn">Mark as End</button>
+        <button id="game-start-btn">Start</button>
+        <button id="clear-btn">Clear</button>
+
+        <div class="url-box"><p>Start: <a href="#" target="_blank" id="start-url"></a></p></div>
+        <div class="url-box"><p>End: <a href="#" target="_blank" id="end-url"></a></p></div>
+
+        <div><p id="status"></p></div>
+
+        <ul id="url-seq-start"></ul>
+        <button type="button" class="collapsible">Expand</button>
+        <ul class="content" id="url-seq-middle">
+        </ul> 
+        <ul id="url-seq-end"></ul>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html> 

@@ -1,0 +1,17 @@
+{
+	"manifest_version": 3,
+	"version": "1.0",
+	"name": "Wikigame",
+	"description": "Simple pop-up Chrome extension for Wikirace tracking",
+	"action": {
+		"default_popup": "index.html"
+	},
+	"permissions": [
+		"background",
+		"tabs",
+		"storage"
+	],
+	"background" : {
+	    "service_worker": "background.js"
+	}
+}

@@ -1,0 +1,30 @@
+body {
+  min-width: 500px;
+}
+
+/*.url-box {
+  border: 1px solid black;
+  width: 200px;
+}*/
+
+#status {
+	color:  green;
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  border: none;
+  text-align: left;
+  outline: none;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  display: none;
+  overflow: hidden;
+} 
